@@ -1,6 +1,6 @@
 {
   "name": "credo-ts-user-profile",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "User Profile protocol implementation for credo-ts-javascript",
   "author": "2060.io",
   "homepage": "https://github.com/2060-io/credo-ts-receipts",
