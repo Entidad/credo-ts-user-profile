@@ -9,7 +9,7 @@ export interface ProfileMessageOptions {
 export declare class ProfileMessage extends AgentMessage {
     constructor(options?: ProfileMessageOptions);
     readonly type: string;
-    static readonly type: import("@credo-ts/core").ParsedMessageType;
+    static readonly type: import("@credo-ts/core/build/utils/messageType").ParsedMessageType;
     profile: UserProfile;
     sendBackYours?: boolean;
 }

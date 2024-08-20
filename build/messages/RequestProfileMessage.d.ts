@@ -9,6 +9,6 @@ export type ConnectionProfileKey = keyof UserProfile;
 export declare class RequestProfileMessage extends AgentMessage {
     constructor(options?: GetProfileMessageOptions);
     readonly type: string;
-    static readonly type: import("@credo-ts/core").ParsedMessageType;
+    static readonly type: import("@credo-ts/core/build/utils/messageType").ParsedMessageType;
     query?: ConnectionProfileKey[];
 }
