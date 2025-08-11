@@ -1,6 +1,6 @@
 {
   "name": "credo-ts-user-profile",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "User Profile protocol implementation for credo-ts-javascript",
   "author": "2060.io",
   "homepage": "https://github.com/2060-io/credo-ts-receipts",
@@ -28,7 +28,7 @@
     "test": "jest"
   },
   "dependencies": {
-    "@credo-ts/core": "0.5.13",
+    "@credo-ts/core": "0.5.16",
     "class-transformer": "0.5.1",
     "class-validator": "0.14.1",
     "node-fetch": "^2.6.1",
@@ -38,7 +38,7 @@
   },
   "devDependencies": {
     "@babel/traverse": "^7.23.2",
-    "@credo-ts/node": "0.5.13",
+    "@credo-ts/node": "0.5.16",
     "@types/jest": "^29.5.0",
     "@types/node-fetch": "2.6.2",
     "@types/uuid": "^10.0.0",
