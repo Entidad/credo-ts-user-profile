@@ -23,10 +23,10 @@ let UserProfileRepository = class UserProfileRepository extends core_2.Repositor
         this.DEFAULT_USER_PROFILE_RECORD = 'DEFAULT_USER_PROFILE_RECORD';
     }
 };
-UserProfileRepository = __decorate([
+exports.UserProfileRepository = UserProfileRepository;
+exports.UserProfileRepository = UserProfileRepository = __decorate([
     (0, tsyringe_1.scoped)(tsyringe_1.Lifecycle.ContainerScoped),
     __param(0, (0, tsyringe_1.inject)(core_1.InjectionSymbols.StorageService)),
     __metadata("design:paramtypes", [Object, core_1.EventEmitter])
 ], UserProfileRepository);
-exports.UserProfileRepository = UserProfileRepository;
 //# sourceMappingURL=UserProfileRepository.js.map

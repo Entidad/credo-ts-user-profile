@@ -6,5 +6,5 @@ var ProfileEventTypes;
     ProfileEventTypes["UserProfileUpdated"] = "UserProfileUpdated";
     ProfileEventTypes["UserProfileRequested"] = "UserProfileRequested";
     ProfileEventTypes["ConnectionProfileUpdated"] = "ConnectionProfileUpdated";
-})(ProfileEventTypes = exports.ProfileEventTypes || (exports.ProfileEventTypes = {}));
+})(ProfileEventTypes || (exports.ProfileEventTypes = ProfileEventTypes = {}));
 //# sourceMappingURL=UserProfileEvents.js.map

@@ -25,10 +25,10 @@ class RequestProfileMessage extends core_1.AgentMessage {
         }
     }
 }
+exports.RequestProfileMessage = RequestProfileMessage;
 RequestProfileMessage.type = (0, core_1.parseMessageType)('https://didcomm.org/user-profile/1.0/request-profile');
 __decorate([
     (0, core_1.IsValidMessageType)(RequestProfileMessage.type),
     __metadata("design:type", Object)
 ], RequestProfileMessage.prototype, "type", void 0);
-exports.RequestProfileMessage = RequestProfileMessage;
 //# sourceMappingURL=RequestProfileMessage.js.map

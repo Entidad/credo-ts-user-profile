@@ -50,6 +50,7 @@ class ProfileMessage extends core_1.AgentMessage {
         }
     }
 }
+exports.ProfileMessage = ProfileMessage;
 ProfileMessage.type = (0, core_1.parseMessageType)('https://didcomm.org/user-profile/1.0/profile');
 __decorate([
     (0, core_1.IsValidMessageType)(ProfileMessage.type),
@@ -61,5 +62,4 @@ __decorate([
     (0, class_transformer_1.Expose)({ name: 'send_back_yours' }),
     __metadata("design:type", Boolean)
 ], ProfileMessage.prototype, "sendBackYours", void 0);
-exports.ProfileMessage = ProfileMessage;
 //# sourceMappingURL=ProfileMessage.js.map

@@ -81,9 +81,9 @@ let UserProfileApi = class UserProfileApi {
         };
     }
 };
-UserProfileApi = __decorate([
+exports.UserProfileApi = UserProfileApi;
+exports.UserProfileApi = UserProfileApi = __decorate([
     (0, core_1.injectable)(),
     __metadata("design:paramtypes", [core_1.AgentContext, core_1.MessageSender, services_1.UserProfileService])
 ], UserProfileApi);
-exports.UserProfileApi = UserProfileApi;
 //# sourceMappingURL=UserProfileApi.js.map

@@ -12,7 +12,7 @@ export declare class UserProfileRecord extends BaseRecord implements UserProfile
     readonly type = "UserProfileRecord";
     constructor(props: UserProfileStorageProps);
     getTags(): {
-        [x: string]: import("@credo-ts/core").TagValue;
-        [x: number]: never;
+        [key: string]: import("@credo-ts/core").TagValue;
+        [key: number]: never;
     };
 }

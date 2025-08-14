@@ -146,11 +146,11 @@ let UserProfileService = class UserProfileService {
         return message;
     }
 };
-UserProfileService = __decorate([
+exports.UserProfileService = UserProfileService;
+exports.UserProfileService = UserProfileService = __decorate([
     (0, tsyringe_1.scoped)(tsyringe_1.Lifecycle.ContainerScoped),
     __metadata("design:paramtypes", [repository_1.UserProfileRepository,
         core_1.ConnectionService,
         core_1.EventEmitter])
 ], UserProfileService);
-exports.UserProfileService = UserProfileService;
 //# sourceMappingURL=UserProfileService.js.map
